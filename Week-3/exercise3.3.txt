@@ -1,0 +1,4 @@
+The output of the above code is count is o.
+
+Message is declared when createIncrement is invoked and it is not changed in the further lines of code.
+increment() function just changes the counter variable but not the message variable.
