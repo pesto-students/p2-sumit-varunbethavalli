@@ -18,5 +18,5 @@ function vowelCount(strInput){
     return vowelMap;
 }
 
-const res = vowelCount("jagannathanio");
+const res = vowelCount("varuntejio");
 console.log(res); 
