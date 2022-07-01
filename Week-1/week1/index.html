@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            text-align: left;
+            padding: 8px;
+            font-family: lato;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+
+        img {
+            margin-left: 2%;
+        }
+
+        .header {
+            overflow: hidden;
+            background-color: #353535;
+            padding: 20px 10px;
+        }
+
+        .header a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 25px;
+            border-radius: 4px;
+        }
+
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .header a.active {
+            background-color: dodgerblue;
+            color: #353535;
+        }
+
+        .header-right {
+            float: right;
+            width: 300px;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
+            .header-right {
+                float: none;
+            }
+        }
+
+        div>h4 {
+            color: white;
+            font-family: lato;
+        }
+
+        #logo {
+
+            float: left;
+        }
+
+        span {
+            color: white;
+        }
+
+        div>span {
+            font-size: 10px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            /* width: 100%; */
+            background-color: steelblue;
+            color: white;
+            text-align: center;
+            height: 75px;
+        }
+
+        .border {
+            border-style: solid;
+            border-color: #287EC7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header container-fluid">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/cattyboard.jpg" alt="cattyboard" width="150" height="150">
+            </div>
+            <div class="col-10">
+
+                <span style="font-size:20px;">CattyBoard Top 100 Single Charts(11.06.36)</span> <br>
+
+                <span>Unknown Artist</span> <br>
+                <span>2016.Charts. 100 songs</span>
+
+                <div class="mt-4">
+                    <br>
+                    <span> Play all </span> &nbsp;
+                    <span> Add to </span> &nbsp;
+                    <span> More </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td>1. One Dance</td>
+            <td>Crake feat CatKid & Cyla</td>
+            <td>2:54</td>
+            <td class="blue">CATTY CLOUD SYNC</td>
+        </tr>
+        <tr>
+            <td>2. Panda</td>
+            <td>Cattee</td>
+            <td>4:06</td>
+            <td class="blue">CATTY CLOUD SYNC</td>
+        </tr>
+        <tr>
+            <td>3. Cam't Stop the Feeling!</td>
+            <td>Catlin Cimberlake</td>
+            <td>3:56</td>
+            <td class="blue">CATTY CLOUD SYNC</td>
+        </tr>
+        <tr>
+            <td>4. Work From Home</td>
+            <td>Cat Harmony feat Colla</td>
+            <td>3:34</td>
+            <td class="blue">CATTY CLOUD SYNC</td>
+        </tr>
+    </table>
+
+
+    <div class="footer container-fluid">
+        <div class="row">
+            <div class="col-1">
+                <img src="img/cattyboard.jpg" alt="cattyboard" width="70" height="70">
+            </div>
+            <div class="col-1">
+                <span>If It Ain't Love</span> <br>
+                <span>Catson Durelo</span>
+            </div>
+            <div class="col-10">
+
+                <div class="mt-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
