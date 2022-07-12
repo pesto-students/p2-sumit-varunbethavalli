@@ -2,9 +2,9 @@ var findJudge = function(n, trust) {
     let counts = new Array(n+1).fill(0);
     
     for(let [p,j] of trust){
-        //p trusts somebody like j
+        
         counts[p] -= 1;
-        //j is trusted by p
+        
         counts[j] += 1;
     }
     
@@ -18,9 +18,9 @@ var findJudge = function(n, trust) {
     let counts = new Array(n+1).fill(0);
     
     for(let [p,j] of trust){
-        //p trusts somebody like j
+    
         counts[p] -= 1;
-        //j is trusted by p
+        
         counts[j] += 1;
     }
     
